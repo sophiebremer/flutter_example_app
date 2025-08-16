@@ -2,7 +2,10 @@
 
 Flutter example app to test contributions.
 
-Initialize web platform with `flutter create . --platforms web`.
+## Shortcuts
+
+- `flutter create . --platforms web`.
+- `flutter run -d chrome`
 
 ## Getting Started
 
