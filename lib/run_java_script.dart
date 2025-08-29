@@ -14,12 +14,12 @@ class RunJavaScript extends StatelessWidget {
       WebWebViewController(WebWebViewControllerCreationParams()),
     );
 
-    webViewController.loadHtmlString('''<!DOCTYPE><html><head>
+    webViewController.loadHtmlString('''<html><head>
       <meta charset="UTF-8" />
       <title>WebWebView</title>
     </head><body>
       <h1>WebWebView</h1>
-    </body></html>''');
+    </body></html>''', baseUrl: 'particles/index.html');
     webViewController.runJavaScript('''
       document.body.append('JavaScript executed');
     ''');
