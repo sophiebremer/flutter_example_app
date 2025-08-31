@@ -6,6 +6,7 @@ Flutter example app to test contributions.
 
 - `flutter create . --platforms web`.
 - `flutter run -d chrome`
+- `flutter build web --release --output docs --base-href /flutter_example_app/`
 
 ## Getting Started
 
